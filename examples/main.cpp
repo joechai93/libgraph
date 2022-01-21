@@ -1,6 +1,13 @@
-#include "Graph.h"
-#include "SimpleEdge.h"
+#include "../Graph.h"
+#include "../SimpleEdge.h"
 #include <iostream>
+#include <fstream>
+#include <rapidjson/document.h>
+#include <rapidjson/istreamwrapper.h>
+#include <rapidjson/writer.h>
+#include <rapidjson/stringbuffer.h>
+#include <rapidjson/ostreamwrapper.h>
+#include "../JsonParser.h"
 
 int main()
 {

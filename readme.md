@@ -16,6 +16,8 @@ Use it as it is without any warranty (MIT license).
 How to build
 ------------
 
+```sudo apt install rapidjson-dev```
+
 Just build your project with the Graph.cpp, Edge.cpp and Node.cpp and add
 the corresponding header files. A Makefile to build the files as a static library
 will be added soon.
